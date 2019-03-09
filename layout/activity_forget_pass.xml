@@ -194,7 +194,7 @@
         app:layout_constraintVertical_bias="0.544" />
 
     <Button
-        android:id="@+id/button8"
+        android:id="@+id/dback"
         android:layout_width="140dp"
         android:layout_height="43dp"
         android:layout_marginStart="8dp"
@@ -247,4 +247,22 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.609" />
+
+    <TextView
+        android:id="@+id/update"
+        android:layout_width="211dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="8dp"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.532"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.963" />
 </android.support.constraint.ConstraintLayout>
