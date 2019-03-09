@@ -8,7 +8,7 @@
 
 
     <EditText
-        android:id="@+id/content details"
+        android:id="@+id/contentdetails"
         android:layout_width="345dp"
         android:layout_height="69dp"
         android:layout_marginStart="8dp"
@@ -27,16 +27,26 @@
         app:layout_constraintVertical_bias="0.763" />
 
     <EditText
-        android:id="@+id/locate address"
+        android:id="@+id/locateaddress"
         android:layout_width="wrap_content"
         android:layout_height="83dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="8dp"
         android:ems="10"
         android:inputType="textPersonName"
-        tools:layout_editor_absoluteX="182dp"
-        tools:layout_editor_absoluteY="101dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.956"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.131" />
 
     <EditText
-        android:id="@+id/market ph.no"
+        android:id="@+id/marketph.no"
         android:layout_width="wrap_content"
         android:layout_height="69dp"
         android:layout_marginStart="8dp"
@@ -55,7 +65,7 @@
         app:layout_constraintVertical_bias="0.404" />
 
     <EditText
-        android:id="@+id/shop sign"
+        android:id="@+id/shopsign"
         android:layout_width="wrap_content"
         android:layout_height="55dp"
         android:layout_marginStart="8dp"
@@ -184,7 +194,7 @@
         app:layout_constraintVertical_bias="0.159" />
 
     <EditText
-        android:id="@+id/name details"
+        android:id="@+id/namedetails"
         android:layout_width="wrap_content"
         android:layout_height="59dp"
         android:layout_marginStart="8dp"
@@ -203,7 +213,7 @@
         app:layout_constraintVertical_bias="0.012" />
 
     <EditText
-        android:id="@+id/package cost"
+        android:id="@+id/packagecost"
         android:layout_width="wrap_content"
         android:layout_height="49dp"
         android:layout_marginStart="8dp"
@@ -222,7 +232,7 @@
         app:layout_constraintVertical_bias="0.632" />
 
     <EditText
-        android:id="@+id/kg details"
+        android:id="@+id/kgdetails"
         android:layout_width="wrap_content"
         android:layout_height="47dp"
         android:layout_marginStart="8dp"
@@ -241,7 +251,7 @@
         app:layout_constraintVertical_bias="0.528" />
 
     <Button
-        android:id="@+id/button8"
+        android:id="@+id/book"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
@@ -250,7 +260,7 @@
         android:layout_marginEnd="8dp"
         android:layout_marginRight="8dp"
         android:layout_marginBottom="8dp"
-        android:text="Button"
+        android:text="Book"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"

@@ -21,7 +21,7 @@
     </ScrollView>
 
     <TextView
-        android:id="@+id/textView12"
+        android:id="@+id/list1"
         android:layout_width="0dp"
         android:layout_height="81dp"
         android:layout_marginStart="8dp"
@@ -65,7 +65,7 @@
         app:layout_constraintVertical_bias="0.14" />
 
     <TextView
-        android:id="@+id/textView14"
+        android:id="@+id/list3"
         android:layout_width="0dp"
         android:layout_height="81dp"
         android:layout_marginStart="8dp"
@@ -87,7 +87,7 @@
         app:layout_constraintVertical_bias="0.268" />
 
     <TextView
-        android:id="@+id/textView15"
+        android:id="@+id/list4"
         android:layout_width="0dp"
         android:layout_height="81dp"
         android:layout_marginStart="8dp"
@@ -109,7 +109,7 @@
         app:layout_constraintVertical_bias="0.395" />
 
     <TextView
-        android:id="@+id/textView16"
+        android:id="@+id/list5"
         android:layout_width="0dp"
         android:layout_height="81dp"
         android:layout_marginStart="8dp"
@@ -131,7 +131,7 @@
         app:layout_constraintVertical_bias="0.523" />
 
     <TextView
-        android:id="@+id/textView17"
+        android:id="@+id/list6"
         android:layout_width="0dp"
         android:layout_height="81dp"
         android:layout_marginStart="8dp"
@@ -153,7 +153,7 @@
         app:layout_constraintVertical_bias="0.665" />
 
     <TextView
-        android:id="@+id/textView18"
+        android:id="@+id/llist7"
         android:layout_width="0dp"
         android:layout_height="81dp"
         android:layout_marginStart="8dp"
